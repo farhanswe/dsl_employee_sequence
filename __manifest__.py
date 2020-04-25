@@ -1,0 +1,20 @@
+{
+    'name': 'Employee Id Generate',
+    'summary': 'Employee Id Generate',
+    'version': '13.0.0.0.1',
+    'author': 'Farhan Tanvir',
+    'maintainer': 'Farhan Tanvir',
+    'website': 'http://farhantanvir.com',
+    'category': 'Extra Tools',
+    'depends': ['hr'],
+    'demo': [],
+    'data': [
+        'data/sequence.xml',
+        'views/company.xml',
+        'views/employee.xml',
+    ],
+    'application': False,
+    'license': 'AGPL-3',
+    'installable': True,
+    'auto_install': False,
+}

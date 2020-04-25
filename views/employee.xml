@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="dsl_employee_inherit" model="ir.ui.view">
+            <field name="name">Employee ID</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <field name="department_id" position="after">
+                    <field name="emp_id"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>
