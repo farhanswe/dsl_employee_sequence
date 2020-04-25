@@ -6,7 +6,7 @@
         <record id="seq_hr_employee" model="ir.sequence">
             <field name="name">Employee Sequence</field>
             <field name="code">dsl.employee.sequence</field>
-            <field name="prefix">HP</field>
+            <field name="prefix"></field>
             <field name="padding">7</field>
             <field name="company_id" eval="False"/>
         </record>
